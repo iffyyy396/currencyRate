@@ -1,7 +1,12 @@
 			/*Top Buttons*/
 body {
 	background-image: url(currency.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+			/*buttons*/
 .backbtn {
 	display: flex!important;
     justify-content: center!important;
@@ -12,9 +17,23 @@ body {
     font-size: 20px!important;
     margin: 20px!important;
 }
-
+.button1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+			/*Popular Currency Rate*/
 .chart {
 	background-color: rgba(255,255,255,0.5);
 	margin: auto;
 	width: 110vh;
+}
+@media (max-width: 576px){
+	body {
+		background-image: url(portrait.jpg);
+		background-position: center;
+	    background-size: cover;
+    	background-attachment: fixed;
+   		background-repeat: no-repeat;
+	}	
 }
