@@ -28,6 +28,12 @@ body {
 	margin: auto;
 	width: 110vh;
 }
+@media (max-width: 768px){
+	.chart { background-color: rgba(255,255,255,0.5);
+		margin: auto;
+		width: 50vh;
+	}
+}
 @media (max-width: 576px){
 	body {
 		background-image: url(portrait.jpg);
