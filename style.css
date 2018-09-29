@@ -31,7 +31,7 @@ body {
 @media (max-width: 768px){
 	.chart { background-color: rgba(255,255,255,0.5);
 		margin: auto;
-		width: 50vh;
+		width: 80vh;
 	}
 }
 @media (max-width: 576px){
@@ -45,6 +45,6 @@ body {
 	.chart {
 		background-color: rgba(255,255,255,0.5);
 		margin: auto;
-		width: 50vh;
+		width: 80vh;
 }
 }
