@@ -32,8 +32,13 @@ body {
 	body {
 		background-image: url(portrait.jpg);
 		background-position: center;
-	    background-size: cover;
-    	background-attachment: fixed;
+		background-size: cover;
+		background-attachment: fixed;
    		background-repeat: no-repeat;
 	}	
+	.chart {
+		background-color: rgba(255,255,255,0.5);
+		margin: auto;
+		width: 50vh;
+}
 }
